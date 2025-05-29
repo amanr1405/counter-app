@@ -1,0 +1,64 @@
+/* Remove all default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252627; /* dark background like your screenshot */
+  font-family: sans-serif;
+}
+
+.rotate-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+}
+
+.container_sub1{
+    background-color: #252627;
+    padding: 25px;
+    border: 2px solid #0eafed;
+    border-radius: 10px;
+    box-shadow: 0 0 100px #0eafed75;
+    display: flex;
+    gap: 20px;
+}
+
+.container_sub1_partb{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text{
+    font-size: 5rem;
+}
+
+.text_button_b{
+    display: flex;
+    gap: 10px;
+}
+
+.calculator_container1_2_img{
+    display: flex;
+    gap: 10px;
+}
+
+.calculator_container1_2_img img{
+    width: 50px;
+    height: 50px;
+}
+
+span{
+    color: #0eafed;
+}
