@@ -8,9 +8,9 @@ function Tech(){
             <h3>Tech <span>Stack</span></h3>
             <br />
             <div className="calculator_container1_2_img">
-                <img src="src\assets\picture\html.png" alt="html"/>
-                <img src="src\assets\picture\css.png" alt="css"/>
-                <img src="src\assets\picture\js.png" alt="js"/>
+                <img src="/html.png" alt="html"/>
+                <img src="/css.png" alt="css"/>
+                <img src="/js.png" alt="js"/>
             </div>
         </div>
     </>
