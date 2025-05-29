@@ -22,7 +22,7 @@ body {
 .container{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     justify-content: center;
     align-items: center;
     background-color: #101010;
@@ -68,10 +68,7 @@ span{
 }
 
 @media (max-width: 768px){
-    .container{
-        height: 100vh;
-    }
     .container_sub1{
-        margin: 20px;
+        margin: 30px;
     }
 }
