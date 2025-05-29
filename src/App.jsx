@@ -24,8 +24,8 @@ function Demo() {
               <h1 className='text'>{a}</h1>
             </div>
             <div className="text_button_b">
-              <button className='incre' onClick={addOn}>Add One</button>
-              <button className='decre' onClick={subOn}>Sub One</button>
+              <button className='incre' onClick={addOn}>Add <span>One</span></button>
+              <button className='decre' onClick={subOn}>Sub <span>One</span></button>
             </div>
             <Tech/>
           </div>
