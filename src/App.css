@@ -6,11 +6,11 @@
   font-family: "Jaro", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
-  background-color: #252627; 
+  font-style: normal; 
 }
 
 html, body {
+    background-color: #252627;
   margin: 0;
   padding: 0;
   overflow: hidden; /* Optional - remove scroll if full-screen app */
@@ -22,16 +22,29 @@ html, body {
   transform: rotate(180deg);
 }
 
+a{
+    color: #fff;
+}
+
+a:hover{
+    color: #0eafed;
+    transition: all 0.3s;
+}
+
 .container{
-    display: flex;
     width: 100vw;
     height: 100dvh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #101010;
 }
 
 .container_sub1{
+    align-items: center;
+    width: 50%;
+    display: flex;
     background-color: #252627;
     padding: 25px;
     border: 2px solid #0eafed;
@@ -71,6 +84,11 @@ span{
 }
 
 @media (max-width: 768px){
+
+    .container_sub1{
+        width: 70%;
+    }
+
     .container_sub1{
         margin: 50px;
     }
