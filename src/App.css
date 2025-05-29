@@ -46,7 +46,7 @@ a:hover{
     display: flex;
     background-color: #252627;
     padding: 25px;
-    border: 2px solid #0eafed;
+    border: 2px solid #0eafed ;
     border-radius: 10px;
     box-shadow: 0 0 100px #0eafed75;
     display: flex;
@@ -85,8 +85,7 @@ span{
 @media (max-width: 768px){
 
     .container_sub1{
-        width: 70%;
-        
+        width: 70%;       
     }
 
     .calculator_container1_2_img img{
