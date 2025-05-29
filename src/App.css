@@ -18,6 +18,7 @@ html, body {
 }
 
 .rotate-text {
+  font-size: 2rem;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
 }
