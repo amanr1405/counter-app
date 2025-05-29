@@ -7,11 +7,14 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color: #252627; 
 }
 
-body {
-  background-color: #252627; /* dark background like your screenshot */
-  font-family: sans-serif;
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Optional - remove scroll if full-screen app */
+  height: 100%;
 }
 
 .rotate-text {
