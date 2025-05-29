@@ -25,7 +25,7 @@ function Demo() {
             </div>
             <div className="text_button_b">
               <button className='incre' onClick={addOn}>Add <span>One</span></button>
-              <button className='decre' onClick={subOn}>Sub <span>One</span></button>
+              <button className='decre' onClick={subOn}><span>Sub</span> One</button>
             </div>
             <Tech/>
           </div>
