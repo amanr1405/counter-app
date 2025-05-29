@@ -68,6 +68,9 @@ span{
 }
 
 @media (max-width: 768px){
+    .container{
+        height: 100vh;
+    }
     .container_sub1{
         margin: 20px;
     }
