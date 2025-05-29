@@ -11,6 +11,7 @@ function Tech(){
                 <img src="/html.png" alt="html"/>
                 <img src="/css.png" alt="css"/>
                 <img src="/js.png" alt="js"/>
+                <img src="/vite.svg" alt="vite"/>
             </div>
         </div>
     </>
