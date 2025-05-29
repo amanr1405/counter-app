@@ -62,3 +62,9 @@ body {
 span{
     color: #0eafed;
 }
+
+@media (max-width: 768px){
+    .container{
+        margin: 20px;
+    }
+}
