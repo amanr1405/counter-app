@@ -3,7 +3,6 @@
 A simple and interactive **Counter App** built using **React** and **Vite**. This app demonstrates the use of **React Hooks** (`useState`) and **Props**, and includes restrictions to prevent the counter from going below **0** or above **10**.
 
 🔗 **Live Demo**: [View Counter App](https://counter-app-seven-hazel.vercel.app/)  
-*(Replace this link with your deployed project URL)*
 
 ---
 
